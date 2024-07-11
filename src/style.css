@@ -1,0 +1,44 @@
+a {
+  color: blueviolet;
+}
+
+body {
+  background-color: white;
+  font-family: "roboto";
+}
+
+header {
+  padding: 20px 0 0 30px;
+}
+.The app {
+  background: burlywood;
+  max-width: 600px;
+  margin: 45px auto;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0 0.08);
+  border-radius: 16px;
+  padding: 30px;
+}
+.search-input-button {
+  background: burlywood;
+  padding: 15px 20px;
+  border-radius: 6px;
+  border: none;
+  font-size: 15px;
+  width: 70%;
+  color: white;
+}
+.search-button {
+  background: bisque;
+  padding: 15px 35px;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+  width: 22%;
+  color: black;
+}
+footer {
+  padding: 30px 0 0 0;
+  font-size: 14px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+}
