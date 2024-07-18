@@ -14,7 +14,7 @@ button {
   display: block;
   margin: 60px auto;
   line-height: 15px;
-  padding: 40px 50px;
+  padding: 30px 60px;
   text-decoration: none;
   transition: all 200ms ease;
   box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
@@ -22,6 +22,8 @@ button {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  margin-bottom: 50px;
+  border-radius: 50px;
 }
 
 header {
@@ -33,7 +35,7 @@ h1 {
 }
 .degree {
   text-align: center;
-  font-size: 30px;
+  font-size: 70px;
   font-weight: bold;
 }
 .weather {
@@ -76,5 +78,5 @@ footer {
 }
 .emoji {
   text-align: center;
-  font-size: 70%;
+  font-size: xx-large;
 }
