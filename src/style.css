@@ -3,12 +3,13 @@ a {
 }
 
 body {
-  background-color: white;
+  background-color: rgba(0, 136, 255, 0.427);
   font-family: "roboto";
+  color: white;
 }
 button {
-  border: 1px solid #8064e9;
-  background: #8064e9;
+  border: 1px solid #e9bd6417;
+  background: #e9ce645f;
   color: #fff;
   font-size: 16px;
   display: block;
@@ -17,7 +18,7 @@ button {
   padding: 30px 60px;
   text-decoration: none;
   transition: all 200ms ease;
-  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+  box-shadow: rgba(37, 39, 89, 0.214) 0px 8px 8px 0;
   border-radius: 1%;
   display: flex;
   width: 100%;
@@ -38,6 +39,11 @@ h1 {
   font-size: 70px;
   font-weight: bold;
 }
+.celcius {
+  font-size: 20px;
+  font-weight: light;
+  text-align: center;
+}
 .weather {
   text-align: center;
   font-size: medium;
@@ -53,7 +59,7 @@ h1 {
   padding: 30px;
 }
 .search-input-button {
-  background: burlywood;
+  background: #e9ce645f;
   padding: 15px 20px;
   border-radius: 6px;
   border: none;
