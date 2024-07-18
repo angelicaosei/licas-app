@@ -6,10 +6,42 @@ body {
   background-color: white;
   font-family: "roboto";
 }
+button {
+  border: 1px solid #8064e9;
+  background: #8064e9;
+  color: #fff;
+  font-size: 16px;
+  display: block;
+  margin: 60px auto;
+  line-height: 15px;
+  padding: 40px 50px;
+  text-decoration: none;
+  transition: all 200ms ease;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+  border-radius: 1%;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
 
 header {
   padding: 20px 0 0 30px;
 }
+h1 {
+  text-align: center;
+  font-size: 45px;
+}
+.degree {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.weather {
+  text-align: center;
+  font-size: medium;
+  padding: 30px;
+}
+
 .The app {
   background: burlywood;
   max-width: 600px;
@@ -41,4 +73,8 @@ footer {
   font-size: 14px;
   text-align: center;
   color: rgba(0, 0, 0, 1);
+}
+.emoji {
+  text-align: center;
+  font-size: 70%;
 }
