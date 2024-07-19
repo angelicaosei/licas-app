@@ -16,17 +16,18 @@
   <div class="The app">
     <header>
       <main>
-        <form class="form-input">
+        <form class="form-input" id="search-form">
           <input
             type="text"
             placeholder="Enter city"
             required
             class="search-input-button"
+            id="search-inputForm"
           />
           <input type="submit" value="Search" class="search-button" />
         </form>
       </main>
-      <h1>Paris</h1>
+      <h1 id="city">Paris</h1>
       <div class="emoji">⛅</div>
 
       <div class="degree">31°</div>
@@ -53,6 +54,6 @@
     </footer>
   </div>
   <body>
-    <script src="index.js"></script>
+    <script src="src/index.js"></script>
   </body>
 </html>
