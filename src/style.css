@@ -44,7 +44,7 @@ h1 {
   font-weight: light;
   text-align: center;
 }
-.weather {
+.date {
   text-align: center;
   font-size: 17px;
   padding: 30px;
@@ -85,4 +85,9 @@ footer {
 .emoji {
   text-align: center;
   font-size: xx-large;
+}
+.weather {
+  text-align: center;
+  font-size: 17px;
+  padding: 10px;
 }

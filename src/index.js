@@ -4,6 +4,8 @@ function currentWeather(response) {
   let cityElement = document.querySelector("#city");
 
   cityElement.innerHTML = response.data.city;
+  let descriptionElement = document.querySelector("#description");
+  descriptionElement.innerHTML = response.data.condition.description;
   temperatureElement.innerHTML = Math.round(temperature);
 }
 
