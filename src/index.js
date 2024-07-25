@@ -8,8 +8,11 @@ function currentWeather(response) {
   let pressureElement = document.querySelector("#Pressure");
   let timeElement = document.querySelector("#time");
   let date = new Date(response.data.time * 1000);
+  let iconElement = document.querySelector("#icon");
 
   humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
+  iconElement.innerHTML = `<img
+          src="${response.data.condition.icon_url}"class"emoji"/>`;
   timeElement.innerHTML = formateDate(date);
   windElement.innerHTML = `${response.data.wind.speed}km/h`;
   pressureElement.innerHTML = `${response.data.temperature.pressure}pascal`;
