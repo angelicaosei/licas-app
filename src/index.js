@@ -18,7 +18,7 @@ function currentWeather(response) {
   pressureElement.innerHTML = `${response.data.temperature.pressure}pascal`;
   cityElement.innerHTML = response.data.city;
   descriptionElement.innerHTML = response.data.condition.description;
-  temperatureElement.innerHTML = Math.round(temperature);
+  temperatureElement.innerHTML = `${Math.round(temperature)}°`;
 }
 function formateDate(date) {
   let minutes = date.getMinutes();
