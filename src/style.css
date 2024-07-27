@@ -6,6 +6,7 @@ body {
   background-color: rgba(0, 136, 255, 0.427);
   font-family: "roboto";
   color: white;
+  top: -30px;
 }
 button {
   border: 1px solid #e9bd6417;
@@ -31,11 +32,12 @@ header {
   padding: 20px 0 0 30px;
 }
 h1 {
-  text-align: center;
+  text-align: left;
   font-size: 45px;
+  padding: -80px;
 }
 .degree {
-  text-align: center;
+  text-align: left;
   font-size: 70px;
   font-weight: bold;
 }
@@ -45,9 +47,8 @@ h1 {
   text-align: center;
 }
 .date {
-  text-align: center;
+  text-align: left;
   font-size: 20px;
-  padding: 30px;
 }
 
 .The app {
@@ -66,16 +67,18 @@ h1 {
   font-size: 15px;
   width: 70%;
   color: white;
+  margin-top: 20px;
 }
 
 .search-button {
-  background: bisque;
+  background: rgb(195, 112, 11);
   padding: 15px 35px;
   border-radius: 6px;
   border: none;
   font-size: 16px;
   width: 22%;
   color: black;
+  margin-top: 20px;
 }
 footer {
   padding: 30px 0 0 0;
@@ -84,11 +87,43 @@ footer {
   color: rgba(0, 0, 0, 1);
 }
 .emoji {
-  text-align: center;
+  text-align: left;
   font-size: xx-large;
 }
+.weather-app-forecast {
+  display: flex;
+  justify-content: space-between;
+}
 .weather {
-  text-align: center;
+  text-align: left;
   font-size: 20px;
   padding: 10px;
+}
+.weather-forecast {
+  top: 50px;
+  right: 20px;
+  margin-top: 30px;
+  padding: 5px;
+  line-height: 80px;
+}
+.weather-date {
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 40px;
+}
+.weather-icon {
+  text-align: center;
+  font-size: 30px;
+
+  padding: 5px;
+}
+.weather-temperatures {
+  text-align: center;
+  color: rgb(195, 112, 11);
+  display: flex;
+  justify-content: center;
+}
+.weather-temperature {
+  padding: 0 10px;
 }
