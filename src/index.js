@@ -57,7 +57,23 @@ function searchSubmit(event) {
   let searchInput = document.querySelector("#search-inputForm");
   searchcity(searchInput.value);
 }
+function displayForeCast() {
+  let forecastElement = document.querySelector("#forecast");
+  let days = ["Tue", "Wed", "Thurs", "Fri", "Sat"];
+  let forecastHtml = "";
+  days.forEach(function (day) {
+    forecastHtml =
+      forecastHtml +
+      `<div class="weather-forecast">
+            <div class="weather-date">${day}</div>
+            <div class="weather-icon">☀️</div>
+            <div class="weather-temperatures"><div class="weather-temperature"><strong>15°</strong></div> <div class="weather-temperature">9°</div> </div>
+          </div>`;
+  });
+  forecastElement.innerHTML = forecastHtml;
+}
 
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", searchSubmit);
 searchcity("new york");
+displayForeCast();
